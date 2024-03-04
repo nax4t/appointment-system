@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+:root {
+  --white: #F2EDEB;
+  --grey: #4A4A48;
+  --pink: #F05365;
+  --yellow: #FABC2A;
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;

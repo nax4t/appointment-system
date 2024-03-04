@@ -1,7 +1,14 @@
 import React from 'react'
+import HeroSection from '../sections/HeroSection'
+import SpecialitySection from '../sections/SpecialitySection'
 
 const HomeScreen = () => {
-  return <div>HomeScreen</div>
+  return (
+    <>
+      <HeroSection />
+      <SpecialitySection />
+    </>
+  )
 }
 
 export default HomeScreen

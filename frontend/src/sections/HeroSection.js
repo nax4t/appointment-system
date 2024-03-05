@@ -2,14 +2,15 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <main>
+    <main className='main'>
       <div className='hero-headings'>
-        <h1>Healthcare Simplified</h1>
-        <h5>Book Appointment Online Anytime</h5>
+        <h1 className='heading-primary'>Healthcare Simplified</h1>
+        <h5 className='heading-secondary'>Book Appointment Online Anytime</h5>
+
+        <a className='btn btn-cta' href='#'>
+          Book Now
+        </a>
       </div>
-      <a className='btn btn-cta' href='#'>
-        Book Now
-      </a>
     </main>
   )
 }

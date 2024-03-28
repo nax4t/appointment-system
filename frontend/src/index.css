@@ -19,6 +19,23 @@ html {
   font-size: 62.5%;
 }
 
+/* headings */
+.headings {
+  text-align: center;
+}
+
+.heading-two {
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+}
+.heading-three {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.heading-five {
+  font-size: 1.7rem;
+}
+
 /*Buttons*/
 .btn {
   text-decoration: none;
@@ -60,4 +77,63 @@ html {
 .heading-secondary {
   font-size: 1.8rem;
   margin-bottom: 4rem;
+}
+
+/* Speciality Section */
+.spaciality-section {
+  padding: 5rem 1rem 7rem 1rem;
+}
+
+.specialities {
+  padding: 0rem 10rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stomach {
+  background-color: var(--yellow);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+}
+.organ-image {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  height: 25rem;
+  width: auto;
+}
+
+.liver {
+  background-color: var(--yellow);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+}
+
+.points {
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+.point {
+  margin-top: .5rem;
+}
+
+/* Time Section */
+.timing-section {
+  padding: 20rem 4rem;
+  text-align: center;
+  background-color: var(--pink);
+}
+.heading-days {
+  font-size: 8rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 3rem;
+}
+.heading-time {
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--white);
 }
